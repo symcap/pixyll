@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
+title:       Symbolic Capital, Inc
+email:       symcapinc@gmail.com
 author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Vendor of products of merit and value."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://symcap.net"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -86,9 +86,9 @@ text:
     coming_soon: 'Coming soon...'
   contact:
     email:    'Email Address'
-    content:  'What would you like to say?'
+    content:  'What can we help you with?'
     subject:  'New submission!'
-    submit:   'Say Hello'
+    submit:   'Send Message'
     ajax:
       sending:  'sending..'
       sent:     'Message sent!'
@@ -108,4 +108,4 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+exclude: ["vendor", "private/", "lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
