@@ -1,7 +1,7 @@
 # Site settings
 title:       Symbolic Capital, Inc
 email:       symcapinc@gmail.com
-author:      John Otander
+#author:
 description: "Vendor of products of merit and value."
 baseurl:     ""
 url:         "http://symcap.net"
